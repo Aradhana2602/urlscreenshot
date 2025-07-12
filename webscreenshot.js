@@ -1,23 +1,3 @@
-/***
-# This file is part of webscreenshot.
-#
-# Copyright (C) 2014, 2019 Thomas Debize <tdebize at mail.com>
-# All rights reserved.
-#
-# webscreenshot is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Lesser General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# webscreenshot is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
-# GNU Lesser General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public License
-# along with webscreenshot.	 If not, see <http://www.gnu.org/licenses/>.
-***/
-
 var Page = (function(custom_headers, http_username, http_password, image_width, image_height, image_format, image_quality, ajax_timeout, max_timeout, crop_rect, custjs) {
 	var opts = {
 		width: image_width || 1200,
